@@ -290,12 +290,12 @@ def blue_house():
         "little dog yapping at the door")
     if "water" in items:
         print_pause("She yells to you through the door:")
-        print_pause('Maureen: "I am sorry, but we are worried about the plague '
-                    'and can\'t allow visitors!"')
-        print_pause('"It looks like you already have everything you need, please '
-                    'go away!"')
-        print_pause('"Everything is going to be so good soon. Believe it. Speak '
-                    'it. Trust it. Affirm it."')
+        print_pause('Maureen: "I am sorry, but we are worried about the '
+                    'plague and can\'t allow visitors!"')
+        print_pause('"It looks like you already have everything you need, '
+                    'please go away!"')
+        print_pause('"Everything is going to be so good soon. Believe it. '
+                    'Speak it. Trust it. Affirm it."')
         print_pause(
             f"Realizing maybe she isn't the person to ask for "
             "{quest_item}, you leave")
@@ -308,10 +308,10 @@ def blue_house():
         print_pause(
             "She then starts repeating something you have a hard time "
             "understanding:")
-        print_pause('Maureen: "Have no fear. If there is a darkness growing in '
-                    'the world, there must')
-        print_pause('be an equally growing light. Such are the laws of balance '
-                    'and nature"')
+        print_pause('Maureen: "Have no fear. If there is a darkness '
+                    'growing in the world, there must')
+        print_pause('be an equally growing light. Such are the laws '
+                    'of balance and nature"')
         print_pause("You decide now might be the time to head back.")
         your_street()
 
